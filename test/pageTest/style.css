@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 3rem;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: #F5F5F5;
+}
+
+.wrapper {
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.epllipse-one, .epllipse-two{
+    position: absolute;
+    width: 97.75rem;
+    height: 97.75rem;
+    border-radius: 100%;
+    left: -155px;
+    top: -460px;
+    background: rgba(72, 135, 227, 0.23);
+}
+
+.epllipse-two {
+    left: -620px;
+    top: 1420px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 142.6rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3.124rem;
+    z-index: 1;
+}
+
+.text-logo {
+    font-size: 3rem;
+    margin-left: 6.25rem;
+}
+
+.img-logo {
+    padding-top: 4rem;
+}
+
+.line {
+    width: 62.5rem;
+    border-radius: 5px;
+    border: 10px solid #2C22E4;
+}
+
+.name-test {
+    width: 40rem;
+    height: 9rem;
+    border-bottom: 20px solid #2C22E4;
+    border-radius: 20px;
+    background: #fff;
+    margin: 3rem 0rem 3rem 20rem;
+}
+
+.name-test h2 {
+    font-size: 1.56rem;
+    line-height: 3.5rem;
+    padding-left: 2.6rem;
+    padding-top: 3.3rem;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+}
+
+.form {
+    min-width: 40rem;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.conteiner-form {
+    min-width: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    border-left: 15px solid #fff;
+    transition: all 1s;
+    background: #FFF;
+    z-index: 1;
+}
+
+.header-form {
+    font-size: 1.56rem;
+    line-height: 3.5rem;
+    margin-bottom: 1rem;
+    position: relative;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.27);
+}
+
+.conteiner-form:focus-within {
+    border-left: 15px solid #2C22E4;
+}
+
+.conteiner-form {
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    padding: 2.5rem 3rem;
+}
+
+.conteiner-form label {
+    width: 35rem;
+    display: flex;
+    column-gap: 0.5rem;
+    align-items: baseline;
+}
+
+.footer {
+    flex-shrink: 0;
+}
