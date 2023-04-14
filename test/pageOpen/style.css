@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    font-size: 100%;
+    background: #F5F5F5;
+}
+
+.wrapper {
+    max-width: 80rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.epllipse-one, .epllipse-two{
+    position: absolute;
+    width: 97.75rem;
+    height: 97.75rem;
+    border-radius: 100%;
+    left: -155px;
+    top: -460px;
+    background: rgba(72, 135, 227, 0.23);
+}
+
+.epllipse-two {
+    left: -620px;
+    top: 1420px;
+}
+
+.epllipse-there, .epllipse-four{
+    position: absolute;
+    width: 68.75rem;
+    height: 68.75rem;
+    left: 240px;
+    top: -15px;
+    border-radius: 100%;
+    background: #E6EDF8;
+}
+
+.epllipse-four {
+    left: 145px;
+    top: 360px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    min-height: 142.6rem;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 3.124rem;
+    z-index: 1;
+}
+
+.text-logo {
+    font-size: 3rem;
+    margin-left: 6.25rem;
+}
+
+.img-logo {
+    padding-top: 4rem;
+}
+
+.line {
+    width: 62.5rem;
+    border-radius: 5px;
+    border: 10px solid #2C22E4;
+}
+
+.form {
+    min-width: 40rem;
+    margin: 0 auto;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.conteiner-form {
+    min-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    border-top: 12px solid #2C22E4;
+    background: #FFF;
+    z-index: 1;
+}
+
+.header-form {
+    margin-bottom: 1rem;
+}
+
+.info {
+    width: 35rem;
+    height: 4rem;
+    margin-bottom: 1.5rem;
+    border: 1px solid #2C22E4;
+    border-radius: 20px;
+    background: #fff;
+}
+
+.info::placeholder {
+    font-size: 1.56rem;
+    line-height: 56px;
+    color: rgba(0, 0, 0, 0.56);
+    padding-left: 2rem;
+}
+
+.btn-form {
+    width: 20rem;
+    height: 4rem;
+    font-size: 1.56rem;
+    background: #2C22E4;
+    color: #fff;
+    border-radius: 20px;
+    border: 1px solid #2C22E4;
+    margin-bottom: 1.5rem;
+}
+
+.footer {
+    flex-shrink: 0;
+}
