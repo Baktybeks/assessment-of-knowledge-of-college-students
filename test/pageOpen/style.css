@@ -95,7 +95,8 @@ body {
     justify-content: center;
     align-items: center;
     border-radius: 10px;
-    border-top: 12px solid #2C22E4;
+    border-top: 12px solid #fff;
+    transition: all 1s;
     background: #FFF;
     z-index: 1;
 }
@@ -105,13 +106,20 @@ body {
 }
 
 .info {
-    width: 35rem;
+    width: 33rem;
     height: 4rem;
+    font-size: 2rem;
     margin-bottom: 1.5rem;
     border: 1px solid #2C22E4;
     border-radius: 20px;
     background: #fff;
+    padding-left: 1rem;
 }
+
+.conteiner-form:focus-within {
+    border-top: 12px solid #2C22E4;
+}
+
 
 .info::placeholder {
     font-size: 1.56rem;
