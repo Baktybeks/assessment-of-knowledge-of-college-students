@@ -17,6 +17,13 @@
                     <h1 class="text-logo">Новая форма по програмированию</h1>
                     <div class="line"></div>
                     <div class="name-test">
+                        <div class="inp-new-name">
+                            <label for="new-name">
+                                Новое название теста
+                                <input type="text" name="новое название" id="new-name">
+                                <input type="submit" value="Добавить">
+                            </label>
+                        </div>
                         <h2>Тесты по HTML и CSS</h2>
                     </div>
                 </div>
@@ -25,26 +32,48 @@
                 </div>
             </header>
             <div class="form">
+                <div class="conteiner-admin-form">
+                    <div class="header-form">
+                        Название вопроса
+                        <input type="text">
+                        <input type="button" value="Добавить">
+                    </div>
+                    <div class="header-form">
+                        Названия ответов
+                        <input type="text">
+                        <input type="button" value="Добавить">
+                    </div>
+                </div>
                 <ul class="conteiner-form">
-                    <div class="header-form">Что такое HTML ?</div>
+                    <div class="header-form">Что такое HTML ?
+                        <input type="button" value="Редоктировать">
+                        <input type="button" value="Удалить">
+                    </div>
                     <li>
                         <label for="1q">
                             <input class="radio" type="radio" name="1" id="1q">
                                 Стандартизированный язык гипертекстовой разметки документов для просмотра веб-страниц в браузере.
+                                <input type="button" value="Редоктировать">
+                                <input type="button" value="Удалить">
                             </label>
                     </li>
                     <li>
                         <label for="2q">
                             <input class="radio" type="radio" name="1" id="2q">
                                 Формальный язык описания внешнего вида документа, написанного с использованием языка разметки.
+                                <input type="button" value="Редоктировать">
+                                <input type="button" value="Удалить">
                             </label>
                     </li>
                     <li>
                         <label for="3q">
                             <input class="radio" type="radio" name="1" id="3q">
                                 Другое
+                                <input type="button" value="Редоктировать">
+                                <input type="button" value="Удалить">
                             </label>
                     </li>
+                    <li><input type="button" value="Удалить все"></li>
                 </ul>
             </div>
                 <div class="epllipse-two"></div>
